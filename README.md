@@ -37,6 +37,7 @@ Structured report and comparison endpoints generate validated outputs for the da
 
 
 ```mermaid
+flowchart TD
     UI["Next.js Frontend<br/>Chat | Reports | Comparisons"]
     API["FastAPI Backend<br/>API Routes and Validation"]
 
@@ -69,6 +70,7 @@ Structured report and comparison endpoints generate validated outputs for the da
 ## Langgraph Agent Workflow
 
 ```mermaid
+flowchart TD
     START([User Question])
     MEMORY["Retrieve Mem0 Preferences"]
     AGENT["LLM Agent Node"]
