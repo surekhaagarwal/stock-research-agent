@@ -1,0 +1,38 @@
+# SQLite database and temp files
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Environment variables
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Next.js
+.next/
+node_modules/
+out/
+*.tsbuildinfo
+
+# Local logs, credentials, and migration backups
+*.log
+logs/
+.DS_Store
+.aws/
+.vercel/
+.migration-backups/
