@@ -35,7 +35,6 @@ FastAPI connects to the LangGraph research agent, which uses financial data tool
 
 Structured report and comparison endpoints generate validated outputs for the dashboard.
 
-
 ```mermaid
 flowchart TD
     UI["Next.js Frontend<br/>Chat | Reports | Comparisons"]
